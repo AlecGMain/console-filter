@@ -1,0 +1,6 @@
+# ConsoleFiler v${project.version} by novucs.
+
+# RegEx console filters.
+log-filters:
+- "^(.*)(/login)(.*)$"
+- "^(.*)(Skipping BlockEntity with id)(.*)$"
