@@ -44,6 +44,7 @@ public class ConsoleFilterPlugin extends JavaPlugin implements Listener {
         loadSettings();
         filterLogs();
         getServer().getScheduler().runTask(this, this::filterLogs);
+        getServer().getPluginManager().registerEvents(this, this);
     }
 
     @Override
