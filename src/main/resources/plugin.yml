@@ -2,6 +2,7 @@ name: ${project.name}
 main: ${project.groupId}.${project.artifactId}.${project.name}Plugin
 version: ${project.version}
 author: novucs
+load: STARTUP
 
 commands:
   consolefilterreload:
